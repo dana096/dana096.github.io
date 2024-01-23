@@ -4,22 +4,58 @@
 <head>
         <meta charset="utf-8">
         <title>이력서</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <style>
+                * { 
+                        font-family: 'Noto Sans KR', sans-serif;
+                }
+
                 body {
-                        font-family: sans-serif; font-size: 16px;
+                        font-size: 16px;
                 }
 
                 header {
-                        background-color: #ccc; padding: 10px;
+                        padding: 10px;
+                        text-align: center;
+                }
+
+                header h3 {
+                        font-weight: 200;
+                        margin-bottom: -20px;
+                }
+
+                header h1 {
+                        font-weight: 500;
+                }
+
+                nav {
+                        background-color: #f9f9f9;
+                        display: flex;
+                        justify-content: space-around;
+                        padding: 10px;
+                }
+
+                nav a {
+                        text-decoration: none;
+                }
+
+                article {
+                        max-width: 1000px;
+                        margin: 0 auto;
                 }
 
                 .tg {
-                        border-collapse:collapse;border-spacing:0;
+                        border-collapse:collapse;
+                        border-spacing:0;
                 }
 
                 .tg td {
-                        border-color:black;border-style:solid;
-                        border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+                        border-color:black;
+                        border-style:solid;
+                        border-width:1px;
+                        font-size:14px;
                         overflow:hidden;
                         padding:10px 5px;
                         word-break:normal;
@@ -27,8 +63,8 @@
 
                 .tg th {
                         border-color:black;
-                        border-style:solid;border-width:1px;
-                        font-family:Arial, sans-serif;
+                        border-style:solid;
+                        border-width:1px;
                         font-size:14px;
                         font-weight:normal;
                         overflow:hidden;
@@ -48,7 +84,7 @@
                 }
 
                 footer {
-                        background-color: #7b5b5b;
+                        background-color: #B8B8BC;
                         padding: 10px;
                         text-align: center;
                 }
@@ -57,23 +93,21 @@
 
 <body>
         <header>
-                <h1>이력서</h1>
-                <h2>김단아</h2>
+                <h3>RESUME</h3>
+                <h1>김단아</h1>
         </header>
 
         <nav>
-                <ul>
-                        <li><a href="#profile">프로필</a></li>
-                        <li><a href="#education">학력</a></li>
-                        <li><a href="#experience">경력</a></li>
-                        <li><a href="#skills">기술</a></li>
-                </ul>
+                <a href="#profile">프로필</a>
+                <a href="#education">학력</a>
+                <a href="#experience">경력</a>
+                <a href="#skills">기술</a>
         </nav>
 
         <article>
                 <section id="profile">
-                        <h2>프로필</h2>
-                        <table class="tg" style="undefined;table-layout: fixed; width: 750px">
+                        <h3>프로필</h3>
+                        <table class="tg" style="table-layout: fixed; width: 750px">
                                 <colgroup>
                                         <col style="width: 129.2px">
                                         <col style="width: 621.2px">
@@ -98,8 +132,8 @@
                 </section>
 
                 <section id="education">
-                        <h2>학력</h2>
-                        <table class="tg" style="undefined;table-layout: fixed; width: 532px">
+                        <h3>학력</h3>
+                        <table class="tg" style="table-layout: fixed; width: 532px">
 				<colgroup>
 					<col style="width: 129.2px">
 					<col style="width: 143.2px">
@@ -127,8 +161,8 @@
                 </section>
 
                 <section id="experience">
-                        <h2>경력</h2>
-                        <table class="tg" style="undefined;table-layout: fixed; width: 845px">
+                        <h3>경력</h3>
+                        <table class="tg" style="table-layout: fixed; width: 845px">
                                 <colgroup>
                                         <col style="width: 163.2px">
                                         <col style="width: 151.2px">
@@ -173,8 +207,8 @@
                 </section>
 
                 <section id="skills">
-                        <h2>기술</h2>
-                        <table class="tg" style="undefined;table-layout: fixed; width: 370px">
+                        <h3>기술</h3>
+                        <table class="tg" style="table-layout: fixed; width: 370px">
                                 <colgroup>
                                         <col style="width: 192.2px">
                                         <col style="width: 178.2px">
