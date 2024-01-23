@@ -10,14 +10,15 @@
         <style>
                 * { 
                         font-family: 'Noto Sans KR', sans-serif;
+                        box-sizing: border-box;
                 }
 
                 body {
                         font-size: 16px;
+                        margin: 0;
                 }
 
                 header {
-                        margin-top: 30px;
                         padding: 10px;
                         text-align: center;
                 }
@@ -37,12 +38,14 @@
                 nav {
                         background-color: #f9f9f9;
                         display: flex;
-                        justify-content: space-around;
-                        padding: 10px;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        padding: 14px;
                 }
 
                 nav a {
                         text-decoration: none;
+                        max-width: 100%;
                 }
 
                 article {
@@ -92,9 +95,10 @@
                 }
 
                 footer {
-                        background-color: #B8B8BC;
+                        margin-top: 100px;
                         padding: 10px;
                         text-align: center;
+                        border-top: 1px solid #ccc;
                 }
         </style>
 </head>
