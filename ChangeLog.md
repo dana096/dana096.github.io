@@ -10,4 +10,7 @@
 - [x] naver searckadvisor
 
 ### 0.4.0
-- [ ] [SEO NAVER](https://github.com/dana096/dana096.github.io/issues/6)]
+- [x] [SEO NAVER](https://github.com/dana096/dana096.github.io/issues/6)]
+
+### 0.5.0
+- [ ] dev page 배포
