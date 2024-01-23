@@ -13,4 +13,7 @@
 - [x] [SEO NAVER](https://github.com/dana096/dana096.github.io/issues/6)]
 
 ### 0.5.0
-- [ ] firebase & deploy dev STG
+- [x] firebase & deploy dev STG
+
+### 0.6.0
+- [x] study css
