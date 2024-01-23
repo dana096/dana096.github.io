@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "danablog",
+    "public": "/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
