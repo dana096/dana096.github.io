@@ -1,7 +1,9 @@
+<br>
+
 # DANA's tech blog
 <img src="https://github.com/dana096/dana096.github.io/assets/145534055/3f02b86f-3bec-4953-ad31-1323beb3a3de" />
 
-<br>
+<br><br>
 
 ### ✅ How to Contribute
 - WSL Ubuntu 22.04 LTS
