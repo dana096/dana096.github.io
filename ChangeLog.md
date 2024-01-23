@@ -7,7 +7,10 @@
 - [x] search-console
 
 ### 0.3.0
-- [x] naver searckadvisor
+- [x] NAVER searchadvisor
 
 ### 0.4.0
-- [ ] [SEO NAVER](https://github.com/dana096/dana096.github.io/issues/6)]
+- [x] [SEO NAVER](https://github.com/dana096/dana096.github.io/issues/6)]
+
+### 0.5.0
+- [ ] firebase & deploy dev STG
