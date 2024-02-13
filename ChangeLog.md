@@ -17,3 +17,9 @@
 
 ### 0.6.0
 - [x] study css
+
+### 0.7.0
+- [x] create resume
+
+### 0.8.0
+- [x] push docker hub
