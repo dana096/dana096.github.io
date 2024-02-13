@@ -23,3 +23,6 @@
 
 ### 0.8.0
 - [x] push docker hub
+
+### 0.8.1
+- [x] deploy fly.io
