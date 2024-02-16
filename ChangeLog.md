@@ -26,3 +26,6 @@
 
 ### 0.8.1
 - [x] deploy fly.io
+
+### 0.9.0
+- [ ] github action 
