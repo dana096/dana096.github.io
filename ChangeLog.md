@@ -28,4 +28,7 @@
 - [x] deploy fly.io
 
 ### 0.9.0
-- [ ] github action 
+- [x] github action
+
+### 0.10.0
+- [ ] nginx proxy  
