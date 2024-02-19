@@ -31,4 +31,7 @@
 - [x] github action 
 
 ### 0.10.0
-- [ ] nginx proxy
+- [x] nginx proxy
+
+### 0.10.1
+- [ ] docker compose
