@@ -8,8 +8,8 @@ RUN apt install cron
 RUN rm -rf /var/www/html
 RUN git clone https://github.com/dana096/dana096.github.io.git /var/www/html
 
-COPY pull.sh /var/www/html
 COPY blog-pull-cronjob /etc/cron.d
+COPY pull.sh /var/www/html/
 RUN crontab /etc/cron.d/blog-pull-cronjob
 
 CMD service cron start;nginx -g 'daemon off;'
