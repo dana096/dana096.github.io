@@ -35,3 +35,6 @@
 
 ### 0.10.1
 - [ ] docker compose
+
+### 0.10.2
+- [ ] manual lb
